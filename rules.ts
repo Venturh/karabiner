@@ -130,6 +130,21 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
+      y: {
+        to: [
+          {
+            key_code: "illumination_increment",
+          },
+        ],
+      },
+      h: {
+        to: [
+          {
+            key_code: "illumination_decrement",
+          },
+        ],
+      },
+      l: open("raycast://extensions/raycast/system/lock-screen"),
       p: {
         to: [
           {

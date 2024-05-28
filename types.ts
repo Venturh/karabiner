@@ -136,6 +136,8 @@ export interface SoftwareFunction {
 }
 
 export type KeyCode =
+  | "illumination_decrement"
+  | "illumination_increment"
   | "caps_lock"
   | "left_control"
   | "left_shift"
