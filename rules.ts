@@ -168,16 +168,33 @@ const rules: KarabinerRules[] = [
       equal_sign: open(
         "-g raycast://extensions/raycast/window-management/make-larger"
       ),
-
       c: open("-g raycast://extensions/raycast/window-management/center"),
       r: open(
         "-g raycast://extensions/raycast/window-management/reasonable-size"
       ),
-      k: open("-g raycast://extensions/raycast/window-management/top-half"),
-      j: open("-g raycast://extensions/raycast/window-management/bottom-half"),
+
       h: open("-g raycast://extensions/raycast/window-management/left-half"),
+      j: open("-g raycast://extensions/raycast/window-management/bottom-half"),
+      k: open("-g raycast://extensions/raycast/window-management/top-half"),
       l: open("-g raycast://extensions/raycast/window-management/right-half"),
+
+      y: open(
+        "-g raycast://extensions/raycast/window-management/top-left-quarter"
+      ),
+      u: open(
+        "-g raycast://extensions/raycast/window-management/bottom-left-quarter"
+      ),
+      i: open(
+        "-g raycast://extensions/raycast/window-management/top-right-quarter"
+      ),
+      o: open(
+        "-g raycast://extensions/raycast/window-management/bottom-right-quarter"
+      ),
+
       f: open("-g raycast://extensions/raycast/window-management/maximize"),
+      return_or_enter: open(
+        "-g raycast://extensions/raycast/window-management/maximize"
+      ),
     },
     //x: {},
     //y: {},
